@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"github.com\/gin-gonic\/gin\"\n",
+    "uid" : "014E6746-9746-462F-9B2E-9F8BF31647DD",
+    "name" : "gin package",
+    "keyword" : "gin"
+  }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customSites</key>
+	<dict>
+		<key>6742E7E9-9E90-46C5-A341-2155DF9EA17D</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>jd</string>
+			<key>text</key>
+			<string>京东</string>
+			<key>url</key>
+			<string>https://search.jd.com/Search?keyword={query}&amp;enc=utf-8</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+		<key>BE81FBD9-7F6B-40E1-8F8A-7E019AFB71BF</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>webdash</string>
+			<key>text</key>
+			<string>dash search</string>
+			<key>url</key>
+			<string>dash://{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

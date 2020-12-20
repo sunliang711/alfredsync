@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"database\/sql\"\n_ import \"github.com\/go-sql-driver\/mysql\"",
+    "uid" : "B0A45DC8-B766-4306-BBD3-C5F19FFDDE77",
+    "name" : "mysql",
+    "keyword" : "mysql"
+  }
+}

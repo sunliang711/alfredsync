@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"github.com\/gorilla\/mux\"",
+    "uid" : "8425CBEA-7B2A-4A0E-AB08-42F2A0BA7705",
+    "name" : "gorilla mux",
+    "keyword" : "mux"
+  }
+}

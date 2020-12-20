@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"github.com\/sirupsen\/logrus\"",
+    "uid" : "4FE3C983-0CA9-4F84-8553-E14DD68C0398",
+    "name" : "logrus",
+    "keyword" : "logrus"
+  }
+}

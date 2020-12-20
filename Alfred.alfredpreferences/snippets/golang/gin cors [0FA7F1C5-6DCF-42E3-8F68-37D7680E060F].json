@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"github.com\/gin-contrib\/cors\"",
+    "uid" : "0FA7F1C5-6DCF-42E3-8F68-37D7680E060F",
+    "name" : "gin cors",
+    "keyword" : "gincors"
+  }
+}

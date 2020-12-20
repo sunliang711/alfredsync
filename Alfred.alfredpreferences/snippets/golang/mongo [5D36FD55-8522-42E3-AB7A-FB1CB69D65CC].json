@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"go.mongodb.org\/mongo-driver\/mongo\",\n\/\/ import \"go.mongodb.org\/mongo-driver\/mongo\/options\"\n\/\/ import \"go.mongodb.org\/mongo-driver\/mongo\/readpref\"\n\/\/ import \"go.mongodb.org\/mongo-driver\/bson\/primitive\"",
+    "uid" : "5D36FD55-8522-42E3-AB7A-FB1CB69D65CC",
+    "name" : "mongo",
+    "keyword" : "mongo"
+  }
+}

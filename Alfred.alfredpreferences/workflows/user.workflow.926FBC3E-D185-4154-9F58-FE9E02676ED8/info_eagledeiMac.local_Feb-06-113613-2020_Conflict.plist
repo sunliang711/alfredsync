@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>eagle711.win</string>
+	<key>connections</key>
+	<dict>
+		<key>138531CF-9025-4157-BD9C-217CEC260DB6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9247215C-45FE-47E9-89DD-C61E879899E0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2D98FC44-23EF-4D25-BF8F-0D1CFF5117CE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>78FB2E2E-9846-4E6E-AE2B-3E9D5A89218E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>056ED2F8-67CB-4ABC-A047-A28D7E8F6ACC</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3F46805F-65A7-488B-963B-065992EE057F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A7C3A16-D4D3-4FE2-88C1-F1C1BA261500</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3B674873-E796-475C-ACBA-F9AC3D962075</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6373566D-1DA9-4F25-8F5C-BDDD84FC768B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F46805F-65A7-488B-963B-065992EE057F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A85BD004-B79B-4731-BBCC-83E17A49BCFA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2D98FC44-23EF-4D25-BF8F-0D1CFF5117CE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ABDC3C77-85E3-445F-B59C-6168A2628D3B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DBBF8AEC-102A-422F-A594-2738264FD1E8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BC8AFE57-7B4B-4678-87C1-E4A5FC0C24E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA2600AE-9BC6-4B69-AF44-F974CB6FD9CA</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9E166EA-03E6-4CC7-90E9-2AC510EB7DF8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>004EE8FD-524E-47C9-A011-05DD9E27E0BD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EAD97A7D-785E-44C3-928E-66F1D21E373C</key>
+		<array/>
+		<key>FA4E5B93-AF33-4E8B-B5AC-79926980B759</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EAD97A7D-785E-44C3-928E-66F1D21E373C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>eagle</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>find file</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>DBBF8AEC-102A-422F-A594-2738264FD1E8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>open -a Finder {query}
+exit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>DA2600AE-9BC6-4B69-AF44-F974CB6FD9CA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>o</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array>
+					<string>~/Downloads</string>
+					<string>~/Dropbox</string>
+					<string>~/Workspace</string>
+				</array>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>输入文件名以打开</string>
+				<key>title</key>
+				<string>打开</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>ABDC3C77-85E3-445F-B59C-6168A2628D3B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>openf</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>open folder</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BC8AFE57-7B4B-4678-87C1-E4A5FC0C24E6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>78FB2E2E-9846-4E6E-AE2B-3E9D5A89218E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>xxd</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>import json
+class item:
+    def __init__(self,Uid="",Type="",Title="",Subtitle="",Arg="",Autocomplete="",Filetype="",Path=""):
+        self._uid = Uid
+        self._type = Type
+        self._title = Title
+        self._subtitle = Subtitle
+        self._arg = Arg
+        self._autocomplete = Autocomplete
+        self._filetype = Filetype
+        self._path = Path
+
+    def toDict(self):
+        return {"uid":self._uid,"type":self._type,"title":self._title,"subtitle":self._subtitle,"arg":self._arg,"autocomplete":self._autocomplete,"icon":{"type":self._filetype,"path":self._path}}
+
+class items:
+    def __init__(self):
+        self._items = []
+    def add(self,element):
+        self._items.append(element)
+
+    def toString(self):
+        result = ""
+        totalItems = []
+        totalDict = {"items":totalItems}
+        for each_item in self._items:
+            totalItems.append(each_item.toDict())
+        return json.dumps(totalDict)
+
+
+i1 = item("uid1","type1","title1","subtitle1","arg1","autocomplete1","filetype1","path1")
+i2 = item("uid2","type2","title2","subtitle2","arg2","autocomplete2","filetype2","path2")
+
+items1 = items()
+items1.add(i1)
+items1.add(i2)
+print(items1.toString())</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>输出item</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D9E166EA-03E6-4CC7-90E9-2AC510EB7DF8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>004EE8FD-524E-47C9-A011-05DD9E27E0BD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"script filter","arg":"{\n\t\"items\":[\n\t\t{\n\t\t\t\"uid\":\"\",\n\t\t\t\"type\":\"\",\n\t\t\t\"title\":\"\",\n\t\t\t\"subtitle\":\"\",\n\t\t\t\"arg\":\"\",\n\t\t\t\"autocomplete\":\"\",\n\t\t\t\"icon\":{\n\t\t\t\t\"type\":\"fileicon\",\n\t\t\t\t\"path\":\"\"\n\t \t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t...\n\t\t\t}\n\t\t]\n}","subtitle":"json data format"},{"title":"item2","arg":"222"}]</string>
+				<key>keyword</key>
+				<string>list</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>placeholder</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>A85BD004-B79B-4731-BBCC-83E17A49BCFA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>2D98FC44-23EF-4D25-BF8F-0D1CFF5117CE</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>056ED2F8-67CB-4ABC-A047-A28D7E8F6ACC</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.systemwebsearch</string>
+			<key>uid</key>
+			<string>EAD97A7D-785E-44C3-928E-66F1D21E373C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>5</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>G</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FA4E5B93-AF33-4E8B-B5AC-79926980B759</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6A7C3A16-D4D3-4FE2-88C1-F1C1BA261500</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>16</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>Y</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6373566D-1DA9-4F25-8F5C-BDDD84FC768B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string># check py verion
+# check requests library
+# make query string
+
+import json
+import requests
+import sys
+
+url = "http://fanyi.youdao.com/openapi.do"
+
+configFile = "config.json"
+def config(keyfrom,key):
+    """config key to config.json file"""
+    payload = {
+            "keyfrom":keyfrom,
+            "key":key,
+            "type":"data",
+            "doctype":"json",
+            "version":"1.1",
+            }
+    with open(configFile,"w") as cf:
+        cf.write(json.dumps(payload))
+
+
+def query(word):
+    """query word"""
+    with open(configFile) as cf:
+        payload = json.loads(cf.read())
+	  
+        payload["q"] = word
+        resp = requests.get(url,params=payload)
+        return resp.text
+# config("myiosworkflow","884997728")
+
+def Query(word):
+	payload = {
+            "keyfrom":"myiosworkflow",
+            "key":"884997728",
+            "type":"data",
+            "doctype":"json",
+            "version":"1.1",
+		    "q":word
+            }
+	resp = requests.get(url,params=payload)
+	jsonObj = json.loads(resp.text)
+	#return json.dumps(jsonObj,indent=4)
+	return resp.text
+print(Query(sys.argv[1]))
+
+class item:
+    def __init__(self,Uid="",Type="",Title="",Subtitle="",Arg="",Autocomplete="",Filetype="",Path=""):
+        self._uid = Uid
+        self._type = Type
+        self._title = Title
+        self._subtitle = Subtitle
+        self._arg = Arg
+        self._autocomplete = Autocomplete
+        self._filetype = Filetype
+        self._path = Path
+
+    def toDict(self):
+        return {"uid":self._uid,"type":self._type,"title":self._title,"subtitle":self._subtitle,"arg":self._arg,"autocomplete":self._autocomplete,"icon":{"type":self._filetype,"path":self._path}}
+
+class items:
+    def __init__(self):
+        self._items = []
+    def add(self,element):
+        self._items.append(element)
+
+    def toString(self):
+        result = ""
+        totalItems = []
+        totalDict = {"items":totalItems}
+        for each_item in self._items:
+            totalItems.append(each_item.toDict())
+        return json.dumps(totalDict)
+
+
+# i1 = item("uid1","type1","title1","subtitle1","arg1","autocomplete1","filetype1","path1")
+# i2 = item("uid2","type2","title2","subtitle2","arg2","autocomplete2","filetype2","path2")
+# print(i1.toDict())
+# print(i2.toDict())
+# items1 = items()
+# items1.add(i1)
+# items1.add(i2)
+# print(items1.toString())</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3F46805F-65A7-488B-963B-065992EE057F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alignment</key>
+				<integer>0</integer>
+				<key>backgroundcolor</key>
+				<string></string>
+				<key>fadespeed</key>
+				<integer>0</integer>
+				<key>fillmode</key>
+				<integer>0</integer>
+				<key>font</key>
+				<string></string>
+				<key>largetypetext</key>
+				<string>{query}</string>
+				<key>textcolor</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.largetype</string>
+			<key>uid</key>
+			<string>3B674873-E796-475C-ACBA-F9AC3D962075</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>open ~/Dropbox/OneDrive/Pictures/dota2/20180922171222_1.jpg</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>9247215C-45FE-47E9-89DD-C61E879899E0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>tmux</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>tmux help</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>138531CF-9025-4157-BD9C-217CEC260DB6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>004EE8FD-524E-47C9-A011-05DD9E27E0BD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>056ED2F8-67CB-4ABC-A047-A28D7E8F6ACC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>690</integer>
+			<key>ypos</key>
+			<integer>240</integer>
+		</dict>
+		<key>138531CF-9025-4157-BD9C-217CEC260DB6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>90</integer>
+			<key>ypos</key>
+			<integer>560</integer>
+		</dict>
+		<key>2D98FC44-23EF-4D25-BF8F-0D1CFF5117CE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>600</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>3B674873-E796-475C-ACBA-F9AC3D962075</key>
+		<dict>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>450</integer>
+		</dict>
+		<key>3F46805F-65A7-488B-963B-065992EE057F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>6373566D-1DA9-4F25-8F5C-BDDD84FC768B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>410</integer>
+		</dict>
+		<key>6A7C3A16-D4D3-4FE2-88C1-F1C1BA261500</key>
+		<dict>
+			<key>xpos</key>
+			<integer>435</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>78FB2E2E-9846-4E6E-AE2B-3E9D5A89218E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>690</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>9247215C-45FE-47E9-89DD-C61E879899E0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>550</integer>
+		</dict>
+		<key>A85BD004-B79B-4731-BBCC-83E17A49BCFA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>410</integer>
+			<key>ypos</key>
+			<integer>140</integer>
+		</dict>
+		<key>ABDC3C77-85E3-445F-B59C-6168A2628D3B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>BC8AFE57-7B4B-4678-87C1-E4A5FC0C24E6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>D9E166EA-03E6-4CC7-90E9-2AC510EB7DF8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>20</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>DA2600AE-9BC6-4B69-AF44-F974CB6FD9CA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>620</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>DBBF8AEC-102A-422F-A594-2738264FD1E8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>EAD97A7D-785E-44C3-928E-66F1D21E373C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>210</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
+		<key>FA4E5B93-AF33-4E8B-B5AC-79926980B759</key>
+		<dict>
+			<key>xpos</key>
+			<integer>30</integer>
+			<key>ypos</key>
+			<integer>270</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>g.eagle711.win</string>
+</dict>
+</plist>

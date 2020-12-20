@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "import \"github.com\/dgrijalva\/jwt-go\"",
+    "uid" : "410AF391-44EA-4B8B-8AAB-5E86B18EBC1B",
+    "name" : "jwt-go",
+    "keyword" : "jwt"
+  }
+}

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>1DE245C3-D389-464B-AFE3-EF0311B6A494</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>79574B82-DB45-4872-B399-47807E765B55</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>810831A3-87FE-456C-BB9C-DBC4F6A48521</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7D7624CA-9112-42D0-A7AA-93A08CD30DB0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>sunliang711@gmail.com</string>
+	<key>description</key>
+	<string>快速搜索文件或目录</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>File Search</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>79574B82-DB45-4872-B399-47807E765B55</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>fd</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>查询中...</string>
+				<key>script</key>
+				<string>#1. install python3 with homebrew
+#2. install fd with homebrew or npm
+
+PYTHON=/usr/local/bin/python3
+FD_EXECUTABLE=/usr/local/bin/fd
+
+if [ ! -e "${PYTHON}" ];then
+    cat&lt;&lt;EOF
+{
+	"items":[
+		{
+			"uid":"uid",
+			"type":"default",
+			"title":"Need python3",
+			"subtitle":"python3: ${PYTHON} not exist"
+		}
+	]
+}
+EOF
+exit 1
+fi
+
+if [ ! -e "${FD_EXECUTABLE}" ];then
+    cat&lt;&lt;EOF2
+{
+	"items":[
+		{
+			"uid":"uid",
+			"type":"default",
+			"title":"Need ${FD_EXECUTABLE}",
+			"subtitle":"Install fd by issue 'brew install fd' or 'npm install -g fd-find'"
+		}
+	]
+}
+EOF2
+exit 1
+fi
+
+
+option="--exclude=.git --exclude=.idea --exclude=.vscode --exclude=.sass-cache --exclude=node_modules --exclude=mod"
+pattern="$@"
+dest="~"
+
+
+
+"${PYTHON}" fd.py "${FD_EXECUTABLE}" "'${option}'" "'${pattern}'" "${dest}" 
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>请输入文件名或目录名,搜索完成后按回车打开finder</string>
+				<key>title</key>
+				<string>搜索文件</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1DE245C3-D389-464B-AFE3-EF0311B6A494</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>path</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.revealfile</string>
+			<key>uid</key>
+			<string>7D7624CA-9112-42D0-A7AA-93A08CD30DB0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>fdall</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>查询中...</string>
+				<key>script</key>
+				<string>#1. install python3 with homebrew
+#2. install fd with homebrew of npm
+
+PYTHON=/usr/local/bin/python3
+FD_EXECUTABLE=/usr/local/bin/fd
+
+if [ ! -e "${PYTHON}" ];then
+    cat&lt;&lt;EOF
+{
+	"items":[
+		{
+			"uid":"uid",
+			"type":"default",
+			"title":"Need python3",
+			"subtitle":"python3: ${PYTHON} not exist"
+		}
+	]
+}
+EOF
+exit 1
+fi
+
+if [ ! -e "${FD_EXECUTABLE}" ];then
+    cat&lt;&lt;EOF2
+{
+	"items":[
+		{
+			"uid":"uid",
+			"type":"default",
+			"title":"Need ${FD_EXECUTABLE}",
+			"subtitle":"Install fd by issue 'brew install fd' or 'npm install -g fd-find'"
+		}
+	]
+}
+EOF2
+exit 1
+fi
+
+option="-H -I"
+pattern="$@"
+dest="~"
+
+"${PYTHON}" fd.py "${FD_EXECUTABLE}" "'${option}'" "'${pattern}'" "${dest}" 
+
+
+
+
+
+
+
+
+
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>请输入文件名或目录名,搜索完成后按回车打开finder</string>
+				<key>title</key>
+				<string>搜索所有文件(包括.git node_modules等目录下)</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>810831A3-87FE-456C-BB9C-DBC4F6A48521</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>1DE245C3-D389-464B-AFE3-EF0311B6A494</key>
+		<dict>
+			<key>xpos</key>
+			<integer>70</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>79574B82-DB45-4872-B399-47807E765B55</key>
+		<dict>
+			<key>xpos</key>
+			<integer>445</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>7D7624CA-9112-42D0-A7AA-93A08CD30DB0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>255</integer>
+		</dict>
+		<key>810831A3-87FE-456C-BB9C-DBC4F6A48521</key>
+		<dict>
+			<key>xpos</key>
+			<integer>75</integer>
+			<key>ypos</key>
+			<integer>260</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
