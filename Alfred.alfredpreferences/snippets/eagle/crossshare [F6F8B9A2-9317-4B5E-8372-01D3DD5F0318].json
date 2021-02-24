@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "curl -fsSL https:\/\/gitee.com\/sunliang711\/crossshare-cli\/raw\/master\/scripts\/installChina.sh | bash\n",
+    "uid" : "F6F8B9A2-9317-4B5E-8372-01D3DD5F0318",
+    "name" : "crossshare",
+    "keyword" : "cross"
+  }
+}
