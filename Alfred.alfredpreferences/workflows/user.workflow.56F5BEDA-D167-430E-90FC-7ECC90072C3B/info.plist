@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>16834261-BCDA-4ADF-830F-08F6350D0B59</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C247DEE5-EFD2-4803-9470-1EC62A56922A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF334289-E710-47EF-A84C-EF59FD369297</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>16834261-BCDA-4ADF-830F-08F6350D0B59</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string>query tx hash, address on etherscan</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>etherscan</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>eth</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>query tx by hash or query address</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DF334289-E710-47EF-A84C-EF59FD369297</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>input=$1
+
+query=$(echo -n ${input} | awk '{ print $1}')
+type=$(echo -n ${input} | awk '{ print $2}')
+
+
+# echo "query: $query type: $type"
+
+case ${type} in
+    bsc)
+        url="https://bscscan.com"
+        ;;
+    ropsten)
+        url="https://ropsten.etherscan.io"
+        ;;
+    *)
+        url="https://etherscan.io"
+        ;;
+esac
+
+
+
+address="/address"
+tx="/tx"
+
+
+#trim
+query=$(echo "$query" | perl -pe 's/^\s*(\S+)\s*$/${1}/')
+
+
+# IF address format
+echo -n "${query}"| perl -ne '/^(0x|0X)[a-fA-F0-9]{40}$/ &amp;&amp; exit 0 || exit 1' &amp;&amp; echo -n "${url}${address}/$query"
+
+# IF hash format
+echo -n "${query}"| perl -ne '/^(0x|0X)[a-fA-F0-9]{64}$/ &amp;&amp; exit 0 || exit 1' &amp;&amp; echo -n "${url}${tx}/$query"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>16834261-BCDA-4ADF-830F-08F6350D0B59</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C247DEE5-EFD2-4803-9470-1EC62A56922A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>16834261-BCDA-4ADF-830F-08F6350D0B59</key>
+		<dict>
+			<key>xpos</key>
+			<integer>310</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>C247DEE5-EFD2-4803-9470-1EC62A56922A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>555</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>DF334289-E710-47EF-A84C-EF59FD369297</key>
+		<dict>
+			<key>xpos</key>
+			<integer>55</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
