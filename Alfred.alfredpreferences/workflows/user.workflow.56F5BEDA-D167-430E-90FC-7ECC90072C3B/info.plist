@@ -12,7 +12,32 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>8D42EA91-B4F5-49D6-BEA0-3690948A6CB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8D42EA91-B4F5-49D6-BEA0-3690948A6CB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
 				<string>C247DEE5-EFD2-4803-9470-1EC62A56922A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1F1FA71A-D8D5-45B5-865F-71BA861DCFAD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F30D35BE-EF3D-451A-A625-6AE792DAB586</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -45,6 +70,25 @@
 	<string>etherscan</string>
 	<key>objects</key>
 	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C247DEE5-EFD2-4803-9470-1EC62A56922A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -126,19 +170,51 @@ echo -n "${query}"| perl -ne '/^(0x|0X)[a-fA-F0-9]{64}$/ &amp;&amp; exit 0 || ex
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-				<key>utf8</key>
-				<true/>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string></string>
+						<key>uid</key>
+						<string>1F1FA71A-D8D5-45B5-865F-71BA861DCFAD</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>C247DEE5-EFD2-4803-9470-1EC62A56922A</string>
+			<string>8D42EA91-B4F5-49D6-BEA0-3690948A6CB7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>your input is not tx hash or address</string>
+				<key>title</key>
+				<string>Invalid input</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>F30D35BE-EF3D-451A-A625-6AE792DAB586</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -150,23 +226,37 @@ echo -n "${query}"| perl -ne '/^(0x|0X)[a-fA-F0-9]{64}$/ &amp;&amp; exit 0 || ex
 		<key>16834261-BCDA-4ADF-830F-08F6350D0B59</key>
 		<dict>
 			<key>xpos</key>
-			<integer>310</integer>
+			<integer>260</integer>
 			<key>ypos</key>
-			<integer>45</integer>
+			<integer>170</integer>
+		</dict>
+		<key>8D42EA91-B4F5-49D6-BEA0-3690948A6CB7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>460</integer>
+			<key>ypos</key>
+			<integer>190</integer>
 		</dict>
 		<key>C247DEE5-EFD2-4803-9470-1EC62A56922A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>555</integer>
+			<integer>570</integer>
 			<key>ypos</key>
-			<integer>45</integer>
+			<integer>30</integer>
 		</dict>
 		<key>DF334289-E710-47EF-A84C-EF59FD369297</key>
 		<dict>
 			<key>xpos</key>
-			<integer>55</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>45</integer>
+			<integer>170</integer>
+		</dict>
+		<key>F30D35BE-EF3D-451A-A625-6AE792DAB586</key>
+		<dict>
+			<key>xpos</key>
+			<integer>585</integer>
+			<key>ypos</key>
+			<integer>280</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
