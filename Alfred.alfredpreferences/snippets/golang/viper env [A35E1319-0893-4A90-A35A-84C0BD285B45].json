@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "func env() {\n\tconst AppName = \"myapp\"\n\n\tviper.SetConfigName(\"config\")\n\tviper.AddConfigPath(fmt.Sprintf(\"\/etc\/%v\", AppName))\n\tviper.AddConfigPath(fmt.Sprintf(\"$HOME\/.%v\", AppName))\n\tviper.AddConfigPath(\".\")\n\n\terr := viper.ReadInConfig()\n\tif err != nil {\n\t\tpanic(fmt.Errorf(\"error reading config: %s\", err))\n\t}\n\tfmt.Printf(\"Using config file: '%s'\\n\", viper.ConfigFileUsed())\n\n\tviper.AutomaticEnv()\n\tviper.SetEnvPrefix(AppName)\n\tviper.SetEnvKeyReplacer(strings.NewReplacer(\".\", \"_\"))\n\n\tfmt.Printf(\"server.port: %s\\n\", viper.GetString(\"server.port\"))\n}\n",
+    "uid" : "A35E1319-0893-4A90-A35A-84C0BD285B45",
+    "name" : "viper env",
+    "keyword" : "viper env"
+  }
+}
