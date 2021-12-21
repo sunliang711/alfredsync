@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "cat<<EOF>\/etc\/sudoers.d\/nopass\neagle ALL=(ALL:ALL) NOPASSWD:ALL\nEOF",
+    "uid" : "40FB897E-8A0C-4AA3-83E3-58B102F9E191",
+    "name" : "sudo",
+    "keyword" : "sudo"
+  }
+}
