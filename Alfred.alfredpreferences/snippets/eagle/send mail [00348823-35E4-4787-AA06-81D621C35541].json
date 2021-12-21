@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "curl -X POST -d '{\"to\":\"sunliang711@qq.com\", \"subject\":\"sub1\", \"body\":\"pre request script\", \"auth_key\":\"xx\"}' https:\/\/gitez.cc:8090\/api\/mail\/v1\/send",
+    "snippet" : "curl -X POST -d '{\"to\":\"sunliang711@qq.com\", \"subject\":\"sub1\", \"body\":\"pre request script\", \"auth_key\":\"xx\"}' https:\/\/gitez.cc\/api\/mail\/v1\/send",
     "uid" : "00348823-35E4-4787-AA06-81D621C35541",
     "name" : "send mail",
     "keyword" : "send mail"
