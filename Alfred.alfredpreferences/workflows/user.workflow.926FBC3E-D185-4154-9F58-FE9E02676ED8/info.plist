@@ -757,6 +757,7 @@ fi</string>
 
 input=$1
 
+echo "input: ${input}"
 input=$(echo $input | tr 'A-F' 'a-f' )
 input=${input#0x}
 
