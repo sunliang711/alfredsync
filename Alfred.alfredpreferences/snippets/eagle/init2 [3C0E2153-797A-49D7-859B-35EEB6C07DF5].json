@@ -1,6 +1,6 @@
 {
   "alfredsnippet" : {
-    "snippet" : "(cd \/tmp && curl -fsSLO https:\/\/gitee.com\/sunliang711\/init2\/raw\/master\/installChina.sh && bash installChina.sh install && \/bin\/rm -rf installChina.sh )",
+    "snippet" : "(cd \/tmp && curl -fsSLO https:\/\/raw.githubusercontent.com\/sunliang711\/init2\/master\/install.sh && bash install.sh install && \/bin\/rm -rf install.sh )",
     "uid" : "3C0E2153-797A-49D7-859B-35EEB6C07DF5",
     "name" : "init2",
     "keyword" : "init2"
