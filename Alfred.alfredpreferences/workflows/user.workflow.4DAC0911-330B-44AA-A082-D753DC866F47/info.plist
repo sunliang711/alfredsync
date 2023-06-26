@@ -62,7 +62,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>sunliang711</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -74,21 +74,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>pacadd</string>
-				<key>subtext</key>
-				<string>比如.google.com</string>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
 				<key>text</key>
-				<string>输入被墙的域名</string>
-				<key>withspace</key>
-				<true/>
+				<string>{query}</string>
+				<key>title</key>
+				<string>pacadd</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>4EBC8A43-A719-487E-9381-5EC0B1E91B21</string>
+			<string>8D511D41-308B-4087-BEAC-15457236FA78</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -118,21 +118,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
 				<string>pacadd</string>
+				<key>subtext</key>
+				<string>比如.google.com</string>
+				<key>text</key>
+				<string>输入被墙的域名</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>8D511D41-308B-4087-BEAC-15457236FA78</string>
+			<string>4EBC8A43-A719-487E-9381-5EC0B1E91B21</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -249,6 +249,8 @@
 			<integer>240</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
 	<string></string>
 </dict>

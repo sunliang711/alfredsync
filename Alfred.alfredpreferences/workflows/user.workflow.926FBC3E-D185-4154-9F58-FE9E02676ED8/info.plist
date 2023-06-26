@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>eagle711.win</string>
+	<string></string>
 	<key>connections</key>
 	<dict>
 		<key>138531CF-9025-4157-BD9C-217CEC260DB6</key>
@@ -186,7 +186,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>eagle</string>
+	<string>sunliang711</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -485,6 +485,8 @@ print(items1.toString())</string>
 				<string>[{"title":"script filter","arg":"{\n\t\"items\":[\n\t\t{\n\t\t\t\"uid\":\"\",\n\t\t\t\"type\":\"\",\n\t\t\t\"title\":\"\",\n\t\t\t\"subtitle\":\"\",\n\t\t\t\"arg\":\"\",\n\t\t\t\"autocomplete\":\"\",\n\t\t\t\"icon\":{\n\t\t\t\t\"type\":\"fileicon\",\n\t\t\t\t\"path\":\"\"\n\t \t\t\t}\n\t\t\t},\n\t\t\t{\n\t\t\t\t...\n\t\t\t}\n\t\t]\n}","subtitle":"json data format"},{"title":"item2","arg":"222"}]</string>
 				<key>keyword</key>
 				<string>list</string>
+				<key>matchmode</key>
+				<integer>0</integer>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -986,7 +988,9 @@ printf "The decimal value of $input=%d\n" $((16#$input))</string>
 			<integer>270</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
-	<string>g.eagle711.win</string>
+	<string></string>
 </dict>
 </plist>

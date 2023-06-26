@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "gitproxyon () {\n        if ! command -v git > \/dev\/null 2>&1\n        then\n                echo \"No git command.\"\n                return 1\n        fi\n        local proxy=${1:?'missing proxy'}\n        echo -n \"Set git http  proxy to ${proxy} .. \"\n        git config --global http.proxy $proxy && echo \"OK\" || echo \"Failed\"\n        echo -n \"Set git https proxy to ${proxy} .. \"\n        git config --global https.proxy $proxy && echo \"OK\" || echo \"Failed\"\n} \n\nproxyEnvOn () {\n        local proxy=\"${1}\"\n        if [ -n \"${proxy}\" ]\n        then\n                echo \"Set http_proxy https_proxy all_proxy to ${proxy}\"\n                export http_proxy=\"${proxy}\"\n                export https_proxy=\"${proxy}\"\n                export all_proxy=\"${proxy}\"\n                export HTTP_PROXY=\"${proxy}\"\n                export HTTPS_PROXY=\"${proxy}\"\n                export ALL_PROXY=\"${proxy}\"\n        else\n                echo \"proxyEnvOn: No proxy specified.\"\n                return 1\n        fi\n}         ",
+    "uid" : "AC3770AB-7D4D-4167-A897-60FFBE2F23A2",
+    "name" : "proxyon",
+    "keyword" : ""
+  }
+}

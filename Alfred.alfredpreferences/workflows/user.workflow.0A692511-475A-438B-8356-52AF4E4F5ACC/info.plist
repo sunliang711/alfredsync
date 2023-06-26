@@ -36,7 +36,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>sunliang711@gmail.com</string>
+	<string>sunliang711</string>
 	<key>description</key>
 	<string>快速搜索文件或目录</string>
 	<key>disabled</key>
@@ -302,6 +302,8 @@ dest="~"
 			<integer>260</integer>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>webaddress</key>
 	<string></string>
 </dict>
