@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "(git clone https:\/\/github.com\/sunliang711\/init ~\/.local\/apps\/init && cd ~\/.local\/apps\/init && .\/install.sh install)",
+    "uid" : "3C0E2153-797A-49D7-859B-35EEB6C07DF5",
+    "name" : "init",
+    "keyword" : "init"
+  }
+}
